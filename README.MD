@@ -48,6 +48,7 @@ This project includes Docker support for easy deployment and development. To use
 ### Prerequisites
 
 - Node.js (v14+)
+- React.js (v18+)
 - MongoDB
 
 ### Installation
@@ -56,7 +57,7 @@ This project includes Docker support for easy deployment and development. To use
 ```
 git clone https://github.com/yourusername/your-repo-name.git
 ```
-2. 🐳 Build using Docker  (Recommended)
+2. 🐳 Build using Docker (Recommended)
    1. Building containers:
       To build your container for the first time:
       ```
@@ -78,25 +79,27 @@ git clone https://github.com/yourusername/your-repo-name.git
       docker-compose down
       ```
 
-2.  📦 Build using npm
+3. 📦 Build using npm
    1. Install NPM packages for both frontend and backend
-   ```
-   cd client && npm install
-   cd ../server && npm install
-   ```
+      ```
+      cd client && npm install
+      cd ../server && npm install
+      ```
    2. Create a `.env` file in the server directory and add your MongoDB connection string
-   ```
-   MONGO_URL=your_mongodb_connection_string
-   ```
+      ```
+      MONGO_URL=your_mongodb_connection_string
+      ```
    3. Start the development servers
 
-   In the server directory
-   ```
-   npm run dev
-   ```
-   In the client directory
-   ```
-   npm run start
+      In the server directory
+      ```
+      npm run dev
+      ```
+      In the client directory
+      ```
+      npm run start
+      ```
+
 
 ## 🤝 Contributing
 
@@ -113,8 +116,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [MongoDB](https://www.mongodb.com/)
 - [Material-UI](https://material-ui.com/)
 - [Nivo Charts](https://nivo.rocks/)
-
-
 
 > [!TIP]
 > Some additional tips:
