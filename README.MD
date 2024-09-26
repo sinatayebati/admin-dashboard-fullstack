@@ -78,7 +78,7 @@ git clone https://github.com/yourusername/your-repo-name.git
       docker-compose down
       ```
 
-2. Build using npm
+2.  📦 Build using npm
    1. Install NPM packages for both frontend and backend
    ```
    cd client && npm install
@@ -117,8 +117,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 > [!TIP]
+> Some additional tips:
 
-Some additional tips:
 1. Viewing logs:
    If your containers are running in detached mode and you want to see the logs:
    ```
