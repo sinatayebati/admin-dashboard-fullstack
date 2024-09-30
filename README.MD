@@ -100,6 +100,13 @@ git clone https://github.com/yourusername/your-repo-name.git
       npm run start
       ```
 
+## 📊 Database Structure
+<!-- ![Dashboard Preview](./client/src/assets/database.png) -->
+<p align="center">
+    <img src="./client/src/assets/database.png"
+    width = 700px
+    >
+</p>
 
 ## 🤝 Contributing
 
