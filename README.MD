@@ -6,7 +6,7 @@ A powerful and intuitive admin dashboard built with the MERN (MongoDB, Express.j
 > [!NOTE]
 > Since the demo is hosted on a free tier instance which shuts down after 15 minutes if not being used, it may take a while to get up and running when you open the demo.
 
-<!-- ![Dashboard Preview](./client/src/assets/demo.png) -->
+![Dashboard Preview](./client/src/assets/demo2.png)
 <p align="center">
     <img src="./client/src/assets/demo-gif.gif"/>
 </p>
